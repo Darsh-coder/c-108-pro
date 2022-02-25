@@ -7,6 +7,6 @@ import pandas as pd
 df = pd.read_csv("data.csv")
 AvgRating1 = df["Avg Rating"]
 AvgRating = AvgRating1.tolist()
-fig = ff.create_distplot([AvgRating],["Avg Rating"],show_hist = False)
+fig = ff.create_distplot([AvgRating],["Avg Rating"])
 fig.show()
 fig.show()
